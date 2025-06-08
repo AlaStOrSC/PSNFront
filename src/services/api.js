@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const api = axios.create({
-  baseURL: 'https://psn-backend-3dut.onrender.com/api/',
+  baseURL: 'https://psnback.onrender.com/api/',
   headers: {
     'Content-Type': 'application/json',
   },
